@@ -1,10 +1,17 @@
 <div>
-<app-header></app-header>
-<app-introduction [profile]="profile" [name]="name"></app-introduction>
+  <app-header></app-header>
+  <app-introduction [profile]="profile" [name]="name"></app-introduction>
 
-<app-about></app-about>
+  <app-about></app-about>
 
-<app-experience [employer]="employer_name" [job_title]="job_title"></app-experience>
-<app-education [degrees]="degrees"></app-education>
-<app-contact [name]="name" [email]="email"></app-contact>
+  <app-experience
+    [employer]="employer_name"
+    [job_title]="job_title"
+  ></app-experience>
+  <app-education [degrees]="degrees"></app-education>
+  <app-contact
+    [name]="name"
+    [email]="email"
+    style="z-index: 11; position: relative;"
+  ></app-contact>
 </div>

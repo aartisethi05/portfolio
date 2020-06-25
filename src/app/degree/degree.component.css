@@ -1,0 +1,13 @@
+.degree-container div {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 20px;
+}
+.degree-container h5 {
+  margin: 0;
+  font-size: 14px;
+  margin-left: 20px;
+}

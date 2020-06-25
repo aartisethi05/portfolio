@@ -12,6 +12,7 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { DegreeComponent } from './degree/degree.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,13 +23,10 @@ import { DegreeComponent } from './degree/degree.component';
     AboutComponent,
     EducationComponent,
     ContactComponent,
-    DegreeComponent
+    DegreeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
