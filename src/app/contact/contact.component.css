@@ -33,6 +33,12 @@
   margin-left: 20px;
 }
 
-.contact-container .icons svg{
+.contact-container .icons svg {
   margin: 0 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container .identity {
+    width: 100%;
+  }
 }

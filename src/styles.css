@@ -7,6 +7,10 @@ body {
   background: #222;
   color: #fff;
   font-family: "Righteous", cursive;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
